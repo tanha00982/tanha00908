@@ -1,8 +1,776 @@
-test
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> italki: Learn a language online </title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-asdsds
+<body>
+    <div class="main">
+        <!-- شروع هدر سایت -->
+        <header class="header-top">
+            <div class="container-fluid">
+                <nav class="nav-header">
+                    <!-- شروع لوگو -->
+                    <div class="logo">
+                        <a href="#">
+                            <img src="assets/images/logo_white.svg" alt="logo">
+                            <img src="assets/images/logo_red.svg" alt="logo">
+                        </a>
+                    </div>
+                    <!-- پایان لوگو -->
+                    <!-- شروع منو -->
+                    <ul class="navigation">
+                        <li>
+                            <a href="#"> Find a Teacher </a>
+                        </li>
+                        <li>
+                            <a href="#"> Become a Teacher </a>
+                        </li>
+                        <li>
+                            <a href="#"> Community </a>
+                        </li>
+                        <li>
+                            <a href="#"> Log in </a>
+                        </li>
+                        <li>
+                            <a href="#"> Sign up </a>
+                        </li>
+                    </ul>
+                    <!-- پایان منو -->
+                    <button type="button" class="toggle-navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <!-- پایان هدر سایت -->
+        <!-- شروع منو ریسپانسیو -->
+        <div class="navigation-responsive">
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="#"> Find a Teacher </a>
+                    </li>
+                    <li>
+                        <a href="#"> Become a Teacher </a>
+                    </li>
+                    <li>
+                        <a href="#"> Community </a>
+                    </li>
+                    <li>
+                        <a href="#"> Log in </a>
+                    </li>
+                    <li>
+                        <a href="#"> Sign up </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- پایان منو ریسپانسیو -->
+        <!-- شروع لندینگ -->
+        <div class="landing">
+            <div class="container">
+                <div class="content">
+                    <h3> Become Fluent in Any Language </h3>
+                    <p> Choose from over 10,000 teachers for 1-on-1 lessons based on your goals and interests. </p>
+                    <div class="choose-language">
+                        <form method="GET">
+                            <input type="text" name="search" placeholder="Choose a language">
+                            <button type="submit"> <i class="fal fa-search"></i> </button>
+                        </form>
+                        <div class="languages">
+                            <h5> Popular languages </h5>
+                            <div class="items">
+                                <a href="#"> English </a>
+                                <a href="#"> Chinese (Mandarin) </a>
+                                <a href="#"> French </a>
+                                <a href="#"> Spanish </a>
+                                <a href="#"> Portuguese </a>
+                                <a href="#"> German </a>
+                                <a href="#"> Japanese </a>
+                                <a href="#"> Korean </a>
+                                <a href="#"> Arabic </a>
+                                <a href="#"> Hindi </a>
+                                <a href="#"> Italian </a>
+                                <a href="#"> Russian </a>
+                            </div>
+                            <h5> A </h5>
+                            <div class="items">
+                                <a href="#"> Afrikaans </a>
+                                <a href="#"> Aiki (Runga) </a>
+                                <a href="#"> Ainu </a>
+                                <a href="#"> Akan Twi </a>
+                                <a href="#"> Albanian </a>
+                                <a href="#"> Alsatian </a>
+                                <a href="#"> Amharic </a>
+                                <a href="#"> Arabic (Egyptian) </a>
+                                <a href="#"> Arabic (Gulf) </a>
+                                <a href="#"> Arabic (Levantine) </a>
+                                <a href="#"> Arabic (Maghrebi) </a>
+                                <a href="#"> Arabic (Modern Standard) </a>
+                                <a href="#"> Arabic(Sudanese) </a>
+                                <a href="#"> Aragonese </a>
+                                <a href="#"> Aramaic </a>
+                                <a href="#"> Argentine Sign Language </a>
+                                <a href="#"> Armenian </a>
+                                <a href="#"> Aromanian </a>
+                                <a href="#"> Assamese </a>
+                                <a href="#"> Assiniboine (Nakota) </a>
+                                <a href="#"> Australian Sign Language (Auslan) </a>
+                                <a href="#"> Austrian German </a>
+                                <a href="#"> Avar </a>
+                                <a href="#"> Aymara </a>
+                                <a href="#"> Azerbaijani </a>
+                                <a href="#"> Azeri </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- پایان لندینگ -->
+        <!-- شروع زبان ها -->
+        <section class="section-languages">
+            <div class="container">
+                <div class="heading">
+                    <h4>
+                        10,000+ teachers.
+                        <span> Any language. </span>
+                    </h4>
+                </div>
+                <div class="swiper-container swiper-lang">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/english_UK.jpg" class="image-teacher">
+                                    <img src="assets/images/gb.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> English </h6>
+                                    <p> 4208 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/spanish.jpg" class="image-teacher">
+                                    <img src="assets/images/es.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Spanish </h6>
+                                    <p> 1658 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/french.jpg" class="image-teacher">
+                                    <img src="assets/images/fr.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> French </h6>
+                                    <p> 642 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/japanese.jpg" class="image-teacher">
+                                    <img src="assets/images/jp.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Japanese </h6>
+                                    <p> 442 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/chinese.jpg" class="image-teacher">
+                                    <img src="assets/images/cn.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Chinese </h6>
+                                    <p> 672 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/german.jpg" class="image-teacher">
+                                    <img src="assets/images/de.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> German </h6>
+                                    <p> 402 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/italian.jpg" class="image-teacher">
+                                    <img src="assets/images/it.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Italian </h6>
+                                    <p> 477 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/russian.jpg" class="image-teacher">
+                                    <img src="assets/images/ru.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Russian </h6>
+                                    <p> 599 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/portuguese.jpg" class="image-teacher">
+                                    <img src="assets/images/pt.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Portuguese </h6>
+                                    <p> 336 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/korean.jpg" class="image-teacher">
+                                    <img src="assets/images/kr.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Korean </h6>
+                                    <p> 130 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/arabic.jpg" class="image-teacher">
+                                    <img src="assets/images/eg.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Arabic </h6>
+                                    <p> 189 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/dutch.jpg" class="image-teacher">
+                                    <img src="assets/images/nl.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Dutch </h6>
+                                    <p> 76 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/turkish.jpg" class="image-teacher">
+                                    <img src="assets/images/tr.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Turkish </h6>
+                                    <p> 115 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/hebrew.jpg" class="image-teacher">
+                                    <img src="assets/images/il.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Hebrew </h6>
+                                    <p> 42 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/polish.jpg" class="image-teacher">
+                                    <img src="assets/images/pl.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Polish </h6>
+                                    <p> 114 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/hindi.jpg" class="image-teacher">
+                                    <img src="assets/images/in.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Hindi </h6>
+                                    <p> 56 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                        <div class="swiper-slide">
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/serbian.jpg" class="image-teacher">
+                                    <img src="assets/images/rs.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> Serbian </h6>
+                                    <p> 81 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                            <article class="item-teacher">
+                                <figure>
+                                    <img src="assets/images/english_US-small.jpg" class="image-teacher">
+                                    <img src="assets/images/us.svg" class="image-lang">
+                                </figure>
+                                <div class="content">
+                                    <h6> ASL </h6>
+                                    <p> 9 Teachers </p>
+                                </div>
+                                <a href="#"></a>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn"> FIND YOUR TEACHER </a>
+            </div>
+        </section>
+        <!-- پایان زبان ها -->
+        <section class="section-why">
+            <div class="container">
+                <h5 class="heading"> Why italki? </h5>
+                <div class="items-why">
+                    <article class="item-why">
+                        <img src="assets/images/illustrations-01.svg">
+                        <h3> Customized Learning </h3>
+                        <p> Choose from over 10,000 teachers for 1-on-1 lessons based on your goals and interests. </p>
+                    </article>
+                    <article class="item-why">
+                        <img src="assets/images/illustrations-02.svg">
+                        <h3> Pay Per Lesson </h3>
+                        <p> On italki you only pay per lesson and at the price that meets your budget. </p>
+                    </article>
+                    <article class="item-why">
+                        <img src="assets/images/illustrations-03.svg">
+                        <h3> Anytime, Anywhere </h3>
+                        <p> Take online lessons at the time and place that suits you. </p>
+                    </article>
+                </div>
+                <div class="items-brands">
+                    <img src="assets/images/bbc.svg">
+                    <img src="assets/images/business.svg">
+                    <img src="assets/images/theguardian.svg">
+                    <img src="assets/images/tc.svg">
+                    <img src="assets/images/quartz.svg">
+                    <img src="assets/images/lifehacker.svg">
+                    <img src="assets/images/post.svg">
+                </div>
+                <h5 class="heading"> How does it work? </h5>
+                <div class="item-video">
+                    <div class="item-left">
+                        <video autoplay="autoplay" loop playsinline muted>
+                            <source src="assets/videos/teachers.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="item-right">
+                        <h4>
+                            <span> 1. </span>
+                            &nbsp;&nbsp;
+                            Choose Your Teacher
+                        </h4>
+                        <p> Watch teacher introduction videos and read reviews from other students. </p>
+                    </div>
+                </div>
+                <div class="item-video">
+                    <div class="item-left">
+                        <h4>
+                            <span> 2. </span>
+                            &nbsp;&nbsp;
+                            Book Your Lesson
+                        </h4>
+                        <p> Only schedule lessons at a time and date that suit you. </p>
+                    </div>
+                    <div class="item-right">
+                        <video autoplay="autoplay" loop playsinline muted>
+                            <source src="assets/videos/lesson.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="item-video">
+                    <div class="item-left">
+                        <video autoplay="autoplay" loop playsinline muted>
+                            <source src="assets/videos/italki- Learn a language online.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="item-right">
+                        <h4>
+                            <span> 3. </span>
+                            &nbsp;&nbsp;
+                            Start Your Journey
+                        </h4>
+                        <p> Connect with your teacher via video chat software, and let the learning begin! </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-over">
+            <div class="container">
+                <h4 class="heading"> Over <span> 5,000,000 </span> learners </h4>
+                <div class="swiper-container swiper-over">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/anna.jpg">
+                                    <img src="assets/images/fr.svg">
+                                </div>
+                                <p> italki is perfect for people who have little time, not enough budget to pay for a
+                                    private tutor, and especially people who like the idea of talking with people from
+                                    all around the world. </p>
+                                <h4> Anna </h4>
+                                <span> LEARNING Japanese </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/yonathan.jpg">
+                                    <img src="assets/images/cl.svg">
+                                </div>
+                                <p> Two months have passed since I first started and I can say that I have seen great
+                                    leaps forward in my Japanese. Since my first lesson with my tutor, I realized that
+                                    he would help me improve exponentially. </p>
+                                <h4> Yonathan </h4>
+                                <span> LEARNING Japanese </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/celso.jpg">
+                                    <img src="assets/images/br.svg">
+                                </div>
+                                <p> I have noticed a significant improvement in the way I learn English. I have even
+                                    already had some interviews in English, something that was not possible a few months
+                                    ago. </p>
+                                <h4> Celso </h4>
+                                <span> LEARNING English </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/joan.jpg">
+                                    <img src="assets/images/gb.svg">
+                                </div>
+                                <p> My skepticism was related to finding a tutor who would be flexible and encouraging
+                                    but this was quickly erased after my first session when I could see that the tutor
+                                    was hard working and very encouraging and understanding. </p>
+                                <h4> Joan </h4>
+                                <span> LEARNING Chinese (Cantonese) </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/cassie.jpg">
+                                    <img src="assets/images/au.svg">
+                                </div>
+                                <p> I have completed five lessons and am amazed at how much I have already learned. Not
+                                    only does my teacher converse with me in Italian she also sends me worksheets and
+                                    small sound clips that I work on at my own pace. </p>
+                                <h4> Cassie </h4>
+                                <span> LEARNING Italian </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/gianni.jpg">
+                                    <img src="assets/images/it.svg">
+                                </div>
+                                <p> The results were exciting, I saw improvement in my ability to speak and understand
+                                    exponentially and now I feel much more comfortable when I have to speak English.
+                                </p>
+                                <h4> Gianni </h4>
+                                <span> LEARNING English </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/andy.jpg">
+                                    <img src="assets/images/cn.svg">
+                                </div>
+                                <p> It was a huge success, I not only was able to practice my English, but found
+                                    confidence in my own English abilities. </p>
+                                <h4> Andy </h4>
+                                <span> LEARNING English </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/andy2.jpg">
+                                    <img src="assets/images/cn.svg">
+                                </div>
+                                <p> Through my own studies and the help of italki's tutors, I was able to receive a
+                                    score of 7.5 on my first IELTS test. </p>
+                                <h4> Andy </h4>
+                                <span> LEARNING English </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item-over">
+                                <div class="image">
+                                    <img src="assets/images/lindalva.jpg">
+                                    <img src="assets/images/br.svg">
+                                </div>
+                                <p> I was a little bit skeptical in the beginning. I was used to studying with books and
+                                    I was missing this. However, I quickly realized that it was the best tool I have
+                                    ever found. </p>
+                                <h4> Lindalva </h4>
+                                <span> LEARNING French </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="section-box-img">
+            <div class="container">
+                <div class="content">
+                    <h3> Learn More Than Just a Language </h3>
+                    <p> On italki it's about mastering a timeless skill, cultivating new perspectives, and connecting
+                        with fascinating people from around the world. </p>
+                    <a href="#" class="btn"> GET STARTED NOW </a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="items-footer">
+                    <h5> Language Teachers </h5>
+                    <ul>
+                        <li>
+                            <a href="#"> English Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Chinese (Mandarin) Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> French Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Spanish Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Portuguese Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> German Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Japanese Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Korean Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Arabic Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Hindi Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Italian Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Russian Teachers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Other Teachers </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items-footer">
+                    <h5> Learn a Language </h5>
+                    <ul>
+                        <li>
+                            <a href="#"> Learn English </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn French </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Spanish </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Portuguese </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn German </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Japanese </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Korean </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Arabic </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Hindi </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Italian </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn Russian </a>
+                        </li>
+                        <li>
+                            <a href="#"> Learn More Languages </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items-footer">
+                    <h5> Teaching </h5>
+                    <ul>
+                        <li>
+                            <a href="#"> Become a Teacher </a>
+                        </li>
+                        <li>
+                            <a href="#"> Teaching Code of Conduct </a>
+                        </li>
+                    </ul>
+                    <h5> More </h5>
+                    <ul>
+                        <li>
+                            <a href="#"> italki Apps </a>
+                        </li>
+                        <li>
+                            <a href="#"> Refer a Friend and Get $10 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Buy a Gift Card </a>
+                        </li>
+                        <li>
+                            <a href="#"> italki Business </a>
+                        </li>
+                        <li>
+                            <a href="#"> Partnership Program </a>
+                        </li>
+                        <li>
+                            <a href="#"> Affiliate Program </a>
+                        </li>
+                        <li>
+                            <a href="#"> Test Your English Level </a>
+                        </li>
+                        <li>
+                            <a href="#"> italki Stories </a>
+                        </li>
+                        <li>
+                            <a href="#"> italki Language Challenge </a>
+                        </li>
+                        <li>
+                            <a href="#"> Language Hacking </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="items-footer">
+                    <form method="POST" action="">
+                        <select>
+                            <option> English </option>
+                            <option> 中文简体 </option>
+                            <option> 中文繁體 </option>
+                            <option> Español </option>
+                            <option> Français </option>
+                            <option> Português </option>
+                            <option> Deutsch </option>
+                            <option> 日本語 </option>
+                            <option> 한국어 </option>
+                        </select>
+                        <select>
+                            <option> AED د.إ.‏ </option>
+                            <option> ARS $ </option>
+                            <option> AUD $ </option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer-bottom">
+                    <ul>
+                        <li>
+                            <a href="#"> Company </a>
+                        </li>
+                        <li>
+                            <a href="#"> Careers </a>
+                        </li>
+                        <li>
+                            <a href="#"> Press </a>
+                        </li>
+                        <li>
+                            <a href="#"> Support </a>
+                        </li>
+                        <li>
+                            <a href="#"> Legal </a>
+                        </li>
+                        <li>
+                            <a href="#"> Privacy </a>
+                        </li>
+                        <li>
+                            <a href="#"> Contact </a>
+                        </li>
+                    </ul>
+                    <span> © 2020 italki HK Limited. </span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
 
-sd
-s
-er
+</html>
